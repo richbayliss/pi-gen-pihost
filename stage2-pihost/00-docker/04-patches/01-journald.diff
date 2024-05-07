@@ -1,0 +1,11 @@
+--- a/rootfs/etc/systemd/journald.conf
++++ b/rootfs/etc/systemd/journald.conf
+@@ -15,7 +15,7 @@
+ # See journald.conf(5) for details.
+ 
+ [Journal]
+-#Storage=auto
++Storage=auto
+ #Compress=yes
+ #Seal=yes
+ #SplitMode=uid
